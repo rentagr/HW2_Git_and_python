@@ -12,7 +12,8 @@ def subtract(a, b):
 
 def multiply(a, b):
     # умножение
-    pass
+    return a * b
+    #pass
 
 def divide(a, b):
     # деление
