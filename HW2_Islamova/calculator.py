@@ -16,8 +16,11 @@ def multiply(a, b):
     #pass
 
 def divide(a, b):
-    # деление
-    pass
+    if b == 0:
+        print("Error: Division by zero is not possible")
+        return None
+    
+    return a / b
 
 def main():
     # entering data and calling the required function
