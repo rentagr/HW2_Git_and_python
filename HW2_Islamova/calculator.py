@@ -11,19 +11,21 @@ def subtract(a, b):
     return result
 
 def multiply(a, b):
-   
     return a * b
-    #pass
 
 def divide(a, b):
-    # деление
-   def divide(a, b):
     if b == 0:
         print("Error: Division by zero is not possible")
         return None
-    
     return a / b
-    # pass
+
+def is_number(s):
+    """Checks whether the string is a number (integer, fractional, negative)"""
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
 
 def main():
     # entering data and calling the required function
@@ -33,15 +35,15 @@ def main():
     condition = True
     while condition: 
         a = input("Input first number: ")
-        operator = str(input("Enter math operation: "))
-        b = input("Input second operator: ")
+        operator = input("Enter math operation: ")
+        b = input("Input second number: ")
 
         # TODO: нужен более корректный метод проверки на число: целое, с плавающей точкой, и отрицательное
-        if a.isnumeric() and b.isnumeric() and operator in AVAILABLE_OPERATORS:
+        if is_number(a) and is_number(b) and operator in AVAILABLE_OPERATORS:
             a, b = float(a), float(b)
             condition = False
         else:
-            print("Input natural number")
+            print("Please, input valid numbers and operator (+,-,*,/)")
    
     # TODO: на удаление, если подать 1234+7484, то будет ошибка
     #parts = expression.split()  #  Break the string by space-> ['1', '+', '3']
@@ -63,7 +65,7 @@ def main():
         return
 
     print(result) # Print result
-    pass
+    
 # This block ensures that the main function is called only 
 # when the script is run directly.
 if __name__ == "__main__":
