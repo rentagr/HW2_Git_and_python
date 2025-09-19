@@ -63,9 +63,9 @@ Team Members:
     Mikhail Dobryakov - Division function implementation with zero division handling, finding errors and inaccuracies
     Renata I. Tagirovna - Project regulation, main calculator function, input validation
 
-![Team](~/BIOINF_Phyton_projects/HW2_comand/HW2_Git_and_phyton/images/Dev_team.jpg)
+![Team](/BIOINF_Phyton_projects/HW2_comand/HW2_Git_and_phyton/images/Dev_team.jpg)
 
-![Symbol](~/BIOINF_Phyton_projects/HW2_comand/HW2_Git_and_phyton/images/snake.jpg)
+![Symbol](/BIOINF_Phyton_projects/HW2_comand/HW2_Git_and_phyton/images/snake.jpg)
 
 
 ## This is an educational project developed for academic purposes
