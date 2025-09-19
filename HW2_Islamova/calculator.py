@@ -11,13 +11,19 @@ def subtract(a, b):
     return result
 
 def multiply(a, b):
-    # умножение
+   
     return a * b
     #pass
 
 def divide(a, b):
     # деление
-    pass
+   def divide(a, b):
+    if b == 0:
+        print("Error: Division by zero is not possible")
+        return None
+    
+    return a / b
+    # pass
 
 def main():
     # entering data and calling the required function
@@ -62,9 +68,4 @@ def main():
 # when the script is run directly.
 if __name__ == "__main__":
     main()
-def divide(a, b):
-    if b == 0:
-        print("Error: Division by zero is not possible")
-        return None
-    
-    return a / b
+
