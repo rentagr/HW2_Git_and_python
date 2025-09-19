@@ -21,7 +21,16 @@ cd HW2_Git_and_python
 
 ## Usage
 
+Run the calculator:
 python3 HW2_Islamova/calculator.py
+
+Follow the prompts:
+
+    Enter the first number
+
+    Select an operation (+, -, *, /)
+
+    Enter the second number
 
 ## Follow the prompts:
 
@@ -54,9 +63,9 @@ Team Members:
     Mikhail Dobryakov - Division function implementation with zero division handling, finding errors and inaccuracies
     Renata I. Tagirovna - Project regulation, main calculator function, input validation
 
-![Team](./images/Dev_team.jpg)
+![Team](~/BIOINF_Phyton_projects/HW2_comand/HW2_Git_and_phyton/images/Dev_team.jpg)
 
-![Symbol](./images/snake.jpg)
+![Symbol](~/BIOINF_Phyton_projects/HW2_comand/HW2_Git_and_phyton/images/snake.jpg)
 
 
 ## This is an educational project developed for academic purposes
