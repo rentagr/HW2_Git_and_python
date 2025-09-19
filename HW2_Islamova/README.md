@@ -1,7 +1,6 @@
 # Python Calculator
 
 A simple console-based calculator implementation in Python for basic mathematical operations.
-
 ## Features
 
 - Addition (+)
@@ -16,7 +15,7 @@ A simple console-based calculator implementation in Python for basic mathematica
 
 Clone the repository:
 
-```bash
+
 git clone https://github.com/rentagr/HW2_Git_and_python.git
 cd HW2_Git_and_python
 
