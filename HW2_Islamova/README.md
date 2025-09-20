@@ -26,23 +26,21 @@ python3 HW2_Islamova/calculator.py
 
 Follow the prompts:
 
-    Enter the first number
+    Enter a mathematical expression (example: 5 - 3):
 
-    Select an operation (+, -, *, /)
+Input first number: a;
+Enter math operation: +, -, *, /;
+Input second number: b;
 
-    Enter the second number
-
-## Follow the prompts:
-
- Enter the first number
- Select an operation (+, -, *, /)
- Enter the second number
 
 ## Example
 
-Input first number: 15.5
-Enter math operation: *
-Input second number: 2
+    Enter a mathematical expression (example: 5 - 3): 15.5 * 2
+    31
+
+Input first number: 15.5;
+Enter math operation: *;
+Input second number: 2;
 Result: 31.0
 
 ## Technologies Used
