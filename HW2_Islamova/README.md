@@ -28,6 +28,8 @@ Follow the prompts:
 
     Enter a mathematical expression (example: 5 - 3):
 
+The numbers and the operator must be separated by spaces.
+
 Input first number: a;
 Enter math operation: +, -, *, /;
 Input second number: b;
@@ -37,11 +39,6 @@ Input second number: b;
 
     Enter a mathematical expression (example: 5 - 3): 15.5 * 2
     31
-
-Input first number: 15.5;
-Enter math operation: *;
-Input second number: 2;
-Result: 31.0
 
 ## Technologies Used
 
@@ -61,7 +58,7 @@ Team Members:
     Mikhail Dobryakov - Division function implementation with zero division handling, finding errors and inaccuracies
     Renata I. Tagirovna - Project regulation, main calculator function, input validation
 
-![Team](images/Dev_team.jpg)
+![Team](images/Dev_team1.jpg)
 
 ![Symbol](images/snake.jpg)
 
