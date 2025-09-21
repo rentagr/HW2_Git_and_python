@@ -21,7 +21,7 @@ def divide(a, b):
     result = a / b
     return result
 
-def main ()
+def main ():
     while True:
         # Getting the input expression from the user
         expression = input("Enter a mathematical expression (example: 5 - 3): ")
@@ -41,7 +41,7 @@ def main ()
             a = float(parts[0])
             b = float(parts[2])
         except ValueError:
-            print("Error: the operands must be numeric or float")
+            print("Error: the numbers must be numeric or float types")
             continue
         
         # Checking the operand
